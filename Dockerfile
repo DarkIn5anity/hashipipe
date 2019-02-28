@@ -11,5 +11,7 @@ RUN apk add unzip wget git && \
 
 WORKDIR	/home/git
 
+CMD	terraform -version && packer -version
+
 
 
