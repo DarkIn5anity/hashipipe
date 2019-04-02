@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        docker { image 'darkinsanity/hasipipe' }
+        docker { image 'darkinsanity/hashipipe' }
     }
     stages {
         stage('Test') {
